@@ -1,0 +1,311 @@
+/*!
+
+ =========================================================
+ * Material Dashboard Pro - v2.1.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/material-dashboard-pro
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+ @import "material-dashboard/variables";
+ @import "material-dashboard/mixins";
+ @import "material-dashboard/mixins/social-buttons.scss";
+@import "material-dashboard/core-bootstrap";
+
+ // Core Components
+// @import "material-dashboard/buttons";
+
+.btn-social {
+  width: 42px;
+  height: 42px;
+  font-size: 16px;
+  line-height: 42px;
+  display: inline-block;
+  border: 1px solid transparent;
+  background: rgba(255, 255, 255, 0.125);
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: .25rem;
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s; }
+
+.btn-social:hover, .btn-social:focus, .btn-social:active {
+  outline: 0;
+  color: #fff !important; }
+
+.btn-social-text {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-weight: 600;
+  border: 1px solid transparent;
+  display: inline-block;
+  background: #ddd;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: .25rem;
+  -o-transition: all .3s;
+  -moz-transition: all .3s;
+  -webkit-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s; }
+
+.btn-social-text i {
+  font-size: .95rem;
+  padding-right: 4px;
+  vertical-align: middle;
+  display: table-cell; }
+
+.btn-social-text span {
+  display: table-cell;
+  vertical-align: middle; }
+
+.btn-social-text:hover, .btn-social:focus, .btn-social:active {
+  outline: 0;
+  color: #fff !important; 
+text-decoration: none;}
+
+.btn-social-circle {
+  border-radius: 50%; }
+
+.btn-outline-facebook {
+  color: #3b5998;
+  background-color: #fff;
+  border-color: #3b5998; }
+
+.btn-outline-facebook:hover, .btn-outline-facebook:focus {
+  color: #fff;
+  background-color: #3b5998; }
+
+.btn-outline-twitter {
+  color: #55acee;
+  background-color: #fff;
+  border-color: #55acee; }
+
+.btn-outline-twitter:hover, .btn-outline-twitter:focus {
+  background-color: #55acee;
+  color: #fff; }
+
+.btn-outline-google-plus {
+  color: #dd4b39;
+  background-color: #fff;
+  border-color: #dd4b39; }
+
+.btn-outline-google-plus:hover, .btn-outline-google-plus:focus {
+  background-color: #dd4b39;
+  color: #fff; }
+
+.btn-outline-linkedin {
+  background-color: #fff;
+  color: #0976b4;
+  border-color: #0976b4; }
+
+.btn-outline-linkedin:hover, .btn-outline-linkedin:focus {
+  background-color: #0976b4;
+  color: #fff; }
+
+.btn-outline-pinterest {
+  color: #cc2127;
+  background-color: #fff;
+  border-color: #cc2127; }
+
+.btn-outline-pinterest:hover, .btn-outline-pinterest:focus {
+  background-color: #cc2127;
+  color: #fff; }
+
+.btn-outline-youtube {
+  color: #e52d27;
+  background-color: #fff;
+  border-color: #e52d27; }
+
+.btn-outline-youtube:hover, .btn-outline-youtube:focus {
+  background-color: #e52d27;
+  color: #fff; }
+
+.btn-outline-tumblr {
+  color: #35465c;
+  background-color: #fff;
+  border-color: #35465c; }
+
+.btn-outline-tumblr:hover, .btn-outline-tumblr:focus {
+  background-color: #35465c;
+  color: #fff; }
+
+.btn-outline-github {
+  color: #333333;
+  background-color: #fff;
+  border-color: #333333; }
+
+.btn-outline-github:hover, .btn-github:focus {
+  background-color: #333333;
+  color: #fff; }
+
+
+.btn-outline-instagram {
+color: orangered;  background-color: #fff;
+  border-color: #333333; }
+
+.btn-outline-instagram:hover, .btn-instagram:focus {
+  background: linear-gradient(to right, #ff3019 0%,#c90477 100%);
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+
+  color: #fff; }
+
+
+.btn-outline-behance {
+  color: #1769ff;
+  background-color: #fff;
+  border-color: #1769ff; }
+
+.btn-outline-behance:hover, .btn-outline-behance:focus {
+  background-color: #1769ff;
+  color: #fff; }
+
+.btn-outline-dribbble {
+  color: #ea4c89;
+  background-color: #fff;
+  border-color: #ea4c89; }
+
+.btn-outline-dribbble:hover, .btn-outline-dribbble:focus {
+  background-color: #ea4c89;
+  color: #fff; }
+
+.btn-outline-skype {
+  color: #00aff0;
+  background-color: #fff;
+  border-color: #00aff0; }
+
+.btn-outline-skype:hover, .btn-outline-skype:focus {
+  background-color: #00aff0;
+  color: #fff; }
+
+.btn-facebook {
+  background-color: #3b5998;
+  border-color: #3b5998; }
+
+.btn-twitter {
+  background-color: #55acee;
+  border-color: #55acee; }
+
+.btn-google-plus {
+  background-color: #dd4b39;
+  border-color: #dd4b39; }
+
+.btn-linkedin {
+  background-color: #0976b4;
+  border-color: #0976b4; }
+
+.btn-pinterest {
+  background-color: #cc2127;
+  border-color: #cc2127; }
+
+.btn-youtube {
+  background-color: #e52d27;
+  border-color: #e52d27; }
+
+.btn-tumblr {
+  background-color: #35465c;
+  border-color: #35465c; }
+
+.btn-github {
+  background-color: #333333;
+  border-color: #333333; }
+
+.btn-behance {
+  background-color: #1769ff;
+  border-color: #1769ff; }
+
+.btn-dribbble {
+  background-color: #ea4c89;
+  border-color: #ea4c89; }
+
+.btn-skype {
+  background-color: #00aff0;
+  border-color: #00aff0; }
+
+// @import "material-dashboard/checkboxes";
+// @import "material-dashboard/radios";
+ @import "material-dashboard/badges";
+ @import "material-dashboard/custom-form";
+ //@import "material-dashboard/forms";
+ //@import "material-dashboard/input-group";
+ @import "material-dashboard/images";
+ @import "material-dashboard/navbar";
+ @import "material-dashboard/pagination";
+ @import "material-dashboard/pills";
+ @import "material-dashboard/type";
+ @import "material-dashboard/tabs";
+ @import "material-dashboard/tooltip";
+ @import "material-dashboard/popover";
+ @import "material-dashboard/modal";
+ @import "material-dashboard/misc";
+ @import "material-dashboard/headers";
+ @import "material-dashboard/alerts";
+ @import "material-dashboard/footers";
+ @import "material-dashboard/dropdown";
+ @import "material-dashboard/progress";
+ @import "material-dashboard/togglebutton";
+ @import "material-dashboard/ripples";
+@import "material-dashboard/tables";
+@import "material-dashboard/info-areas";
+
+// Cards
+ @import "material-dashboard/cards";
+ @import "material-dashboard/cards/card-signup";
+ @import "material-dashboard/cards/card-plain";
+ @import "material-dashboard/cards/card-plain-extend";
+ @import "material-dashboard/cards/card-stats";
+ @import "material-dashboard/cards/card-testimonials";
+ @import "material-dashboard/cards/card-profile";
+ @import "material-dashboard/cards/card-blog";
+ @import "material-dashboard/cards/card-product";
+ @import "material-dashboard/cards/card-pricing";
+ @import "material-dashboard/cards/card-collapse";
+ @import "material-dashboard/cards/card-form-horizontal";
+ @import "material-dashboard/cards/card-background";
+ @import "material-dashboard/cards/card-rotate";
+
+ // Components for PRO
+ @import "material-dashboard/forms-extend";
+ @import "material-dashboard/misc-extend";
+ @import "material-dashboard/footers-extend";
+ @import "material-dashboard/rtl";
+ @import "material-dashboard/sidebar-and-main-panel";
+ @import "material-dashboard/fixed-plugin";
+ @import "material-dashboard/pages";
+ @import "material-dashboard/timeline";
+ @import "material-dashboard/social-buttons";
+
+ //plugin css
+ @import "material-dashboard/plugins/plugin-nouislider";
+ @import "material-dashboard/plugins/animate";
+ @import "material-dashboard/plugins/sweetalert2";
+ @import "material-dashboard/plugins/datatables.net";
+ @import "material-dashboard/plugins/jquery.jvectormap";
+ @import "material-dashboard/plugins/plugin-datetime-picker";
+ @import "material-dashboard/plugins/plugin-fileupload";
+ @import "material-dashboard/plugins/fullcalendar";
+ @import "material-dashboard/plugins/wizard-card";
+ @import "material-dashboard/plugins/chartist";
+ @import "material-dashboard/plugins/plugin-bootstrap-select";
+ @import "material-dashboard/plugins/perfect-scrollbar";
+ @import "material-dashboard/plugins/plugin-tagsinput";
+
+
+ // example pages and sections
+ @import "material-dashboard/example-pages";
+
+
+ @import "material-dashboard/responsive";
